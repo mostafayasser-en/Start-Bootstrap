@@ -36,6 +36,9 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     justify-content: center;
     align-items: center;
 }
+.bootstrap .bootstrap-img {
+    width: 15rem;
+}
 .divider-custom .divider-custom-line:first-child {
     margin-right: 1rem;
 }
