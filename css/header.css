@@ -1,0 +1,26 @@
+.icon-header{
+    color: white;
+}
+.icon-header:hover{
+    color: var(--main-colar);
+}
+.icon-header:scope{
+ background-color: crimson;
+}
+.rounded{
+}
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+   background-color: var(--main-colar);
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+.svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    vertical-align: -0.125em;
+    overflow: visible;
+}
