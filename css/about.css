@@ -1,0 +1,20 @@
+.page-section{
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    background-color: var(--main-colar);
+}
+.page-section .lead{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+@media (min-width: 992px) {
+    .page-section .page-section-heading {
+        font-size: 3rem !important;
+        line-height: 2.5rem !important;
+        font-weight: 700 !important;
+    }
+    .page-section .divider-custom-icon {
+        font-size: 2rem !important;
+        line-height: 1.75rem !important;
+    }
+}
