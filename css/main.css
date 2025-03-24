@@ -1,3 +1,8 @@
 :root{
    --main-colar:#1abc9c;
 }
+.all-head{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

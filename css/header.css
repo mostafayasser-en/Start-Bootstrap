@@ -55,16 +55,19 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 }
 /* end Bootstrap */
 .portfolio-all{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
+    /* gap: 30px; */
 }
 .portfolio-all .portfolio-icon{
     position: relative;
 }
 .portfolio-all .portfolio-icon:hover .portfolio-icon-text{
     visibility: visible;
+}
+.portfolio-all .portfolio-icon img{
+    width:350px;
 }
 .portfolio-all .portfolio-icon:hover img{
     opacity: 10%
@@ -78,7 +81,9 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     visibility: hidden;
 }
 .portfolio-half{
-    box-shadow: inset 351px -11px 0 0 var(--main-colar);
     margin-bottom: 50px;
     padding-bottom: 0;
+}
+.portfolio-half:hover{
+    box-shadow: inset 350px 0px 0 0 var(--main-colar);
 }
