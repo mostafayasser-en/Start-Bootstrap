@@ -49,13 +49,8 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
-    background-color: #212529;
+    background-color: currentColor;
     border-radius: 1rem;
     border-color: white;
 }
 /* end Bootstrap */
-/* start portfolio-section */
-.portfolio{
-    background-color: #eee !important; 
-}
-/* end portfolio-section */
