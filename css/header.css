@@ -58,6 +58,8 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
+    align-items: center;
+    text-align: center;
     /* gap: 30px; */
 }
 .portfolio-all .portfolio-icon{
@@ -87,20 +89,15 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 .portfolio-half:hover{
     box-shadow: inset 350px 0px 0 0 var(--main-colar);
 }
-@media (min-width: 376px), (max-width:430px){
-    .portfolio-all .portfolio-icon img{
-         margin-left: 10px;
-   }
- }
-@media  (max-width:330px){
+
+@media  (max-width:360px){
    .portfolio-all .portfolio-icon img{
-        margin-left: 5px;
        max-width: 290px;
   }
 }
 @media (min-width: 331px), (max-width:375px){
     .portfolio-all .portfolio-icon img{
          margin-left: 5px;
-        max- width: 340px;
+        width: 340px;
    }
  }
